@@ -1,17 +1,17 @@
 from machine import Pin
 import utime
 
-button1 = Pin(16, Pin.IN)
+button1 = Pin(16, Pin.IN)   #connect Button 1 on GP16
 
-led1 = Pin(18, Pin.OUT)
-led2 = Pin(19, Pin.OUT)
-led3 = Pin(20, Pin.OUT)
-led4 = Pin(21, Pin.OUT)
+led1 = Pin(18, Pin.OUT)     #connect Led 1 on GP18
+led2 = Pin(19, Pin.OUT)     #connect Led 2 on GP19
+led3 = Pin(20, Pin.OUT)     #connect Led 3 on GP20
+led4 = Pin(21, Pin.OUT)     #connect Led 4 on GP21
 
-buz = Pin(17, Pin.OUT)
+buz = Pin(17, Pin.OUT)      #connect Buzzer 4 on GP17
 
 while 1:
-    b1 = button1.value()
+    b1 = button1.value()    # Button Button Pressed = 1
     
     led1.toggle()
     led2.toggle()
