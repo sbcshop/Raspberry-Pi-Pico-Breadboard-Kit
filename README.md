@@ -1,5 +1,8 @@
 # Raspberry Pi Pico Breadboard Kit
 
+Raspberry Pi Pico Breadboard Kit is a multi-purpose Kit that consists of a “400 points half-size breadboard” on top,  a Programmable Buzzer, 4 Programmable LEDs, 4 Pushbuttons, and dedicated 5V, 3v3, and GND pins at a single place.
+
+<img src="product-pic1.png" />
 
 ## How to use ?
 
