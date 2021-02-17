@@ -19,6 +19,7 @@
 ### Steps :
 
 * Connect Raspberry Pi Pico on female header of Pico Breadboard Kit.
+* Connect USB cable on Raspberry Pi Pico USB port.
 * Use jumper cables to connect Switches , Led's and Buzzer with Raspberry Pi Pico GPIO headers.
 * Now use example code "Test.py" from pico breadboard kit's github repository in any micropython supported ide (preferred thonny ide).
 * Copy paste code in ide and choose interpreter as MicroPython (Raspberry Pi pico).
