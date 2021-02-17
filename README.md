@@ -26,4 +26,4 @@ Raspberry Pi Pico Breadboard Kit is a multi-purpose Kit that consists of a “40
 * Copy paste code in ide and choose interpreter as MicroPython (Raspberry Pi pico).
 * Click on green play button to run example on Pico Breadboard Kit.
 
-Note: External components can be connected with Pico Breadboard kit via 400 points breradboard. 
+Note: External components can be connected with Pico Breadboard kit via 400 points breadboard. 
