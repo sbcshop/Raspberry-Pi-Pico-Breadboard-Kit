@@ -23,3 +23,5 @@
 * Now use example code "Test.py" from pico breadboard kit's github repository in any micropython supported ide (preferred thonny ide).
 * Copy paste code in ide and choose interpreter as MicroPython (Raspberry Pi pico).
 * Click on green play button to run example on Pico Breadboard Kit.
+
+Note: External components can be connected with Pico Breadboard kit via 400 points breradboard. 
