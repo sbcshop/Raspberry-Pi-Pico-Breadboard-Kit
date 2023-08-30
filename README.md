@@ -24,6 +24,8 @@ Raspberry Pi Pico Breadboard Kit is a multi-purpose Kit that consists of a “40
 * Use jumper cables to connect Switches , Led's and Buzzer with Raspberry Pi Pico GPIO headers.
   
   <img src="https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/images/pico_breadboard_example.jpg" />
+
+  Connections used here, GP0 -> LED 1 , GP4 -> Button 1 & GP8 -> Buzzer
   
 * Now use example code "main.py" from pico breadboard kit's github repository in any micropython supported ide (preferred thonny ide). Find more codes in [examples folder](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/tree/main/examples)
 * Download and open code in Thonny IDE, transfer [main.py](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/main.py) and [PicoBreadboard.py](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/PicoBreadboard.py) file into Pico/Pico W.
