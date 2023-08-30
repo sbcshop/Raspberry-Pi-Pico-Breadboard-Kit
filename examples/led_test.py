@@ -1,3 +1,7 @@
+''' Demo code to test all components LED, Buzzer and Buttons of Pico Breadboard kit 
+    To test this code you should also copy Library file into Pico/Pico W: 
+    https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/PicoBreadboard.py
+'''
 from PicoBreadboard import LED,BUZZER,BUTTON
 import time
 
