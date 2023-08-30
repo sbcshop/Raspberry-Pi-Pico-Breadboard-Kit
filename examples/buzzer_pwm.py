@@ -1,3 +1,5 @@
+''' Demo code which generates various tones on Buzzer '''
+
 from machine import PWM,Pin
 from utime import sleep
 
