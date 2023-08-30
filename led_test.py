@@ -1,9 +1,9 @@
 from PicoBreadboard import LED,BUZZER,BUTTON
 import time
 
-LED1 = LED(0)
-LED2 = LED(1)
-LED3 = LED(2)
+LED1 = LED(0)  # LED connected at GP0
+LED2 = LED(1)  # LED connected at GP1
+LED3 = LED(2)  # LED connected at GP2
 LED4 = LED(3)
 
 BT1 = BUTTON(4)
