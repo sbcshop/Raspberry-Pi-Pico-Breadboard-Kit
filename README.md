@@ -21,10 +21,24 @@ OR
 * Led          :  LED On = 1, LED Off = 0 (OUTPUT)
 * Buzzer       :  Buzzer On = 1, Buzzer Off = 0 (OUTPUT)
 
-### Steps 1 : BootFirmware Upload
-* If your Pico already loaded with boot firmware then you can skip this and jump to next [step 2]() 
+### Steps 1 : How to Install Boot Firmware in Pico
+- If your Pico is already loaded with boot firmware, you can skip this and proceed to [step 2](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/tree/main#steps-2--run-examples) for testing examples.
+- To determine whether firmware is already present, simply connect your Pico to your laptop without pushing the boot button; if no additional device is detected and only some sound is heard, firmware is present.
+- If you connect the pico to a laptop without pushing the boot button and it displays a mass storage device named "RPI-RP2" as seen below, the firmware is not installed.
+- If BOOT firmware missing, then you will have to add **MicroPython firmware** in Pico of Breadboard kit. Select and download suitable firmware for your corresponding pico board,
+  - For Pico => [Pico_firmware.uf2](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/Pico_firmware.uf2)
+  - For Pico W => [PicoW_firmware.uf2](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/Pico_firmware.uf2)
+  - For Pico 2 => [Pico2_Firmware.uf2](https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/Pico_firmware.uf2)  
+- First, you need to *Press and Hold* the **BOOT** button, and then, without releasing the button, connect it to PC/laptop using micro usb. Check below image for reference,
 
+  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
 
+- Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>  
+- Drag and drop the MicroPython UF2 - ["Firmware.uf2"]() file downloaded previously for pico from this github onto the RPI-RP2 volume. Reference image shown below how to transfer any UF2 file or you can copy paste as well. Device will reboot and you are now running MicroPython. 
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/firmware_installation.gif" />
+- Once Boot Firmware loaded now we can proceed to test sample example scripts on breadboard kit with Pico, please below steps for these.
+  
 ### Steps 2 : Run Examples
 
 * Connect Raspberry Pi Pico on female header of Pico Breadboard Kit.
