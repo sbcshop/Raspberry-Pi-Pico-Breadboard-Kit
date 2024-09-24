@@ -33,10 +33,15 @@ OR
 
   <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
 
-- Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
+- Now your device is in boot mode, and you will see a new mass storage device named **"RPI-RP2"** for **Pico/Pico W** and **"RP2350"** for **Pico 2** as shown in the below figure.
+
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>  
-- Drag and drop the MicroPython UF2 - ["Firmware.uf2"]() file downloaded previously for pico from this github onto the RPI-RP2 volume. Reference image shown below how to transfer any UF2 file or you can copy paste as well. Device will reboot and you are now running MicroPython. 
-  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/firmware_installation.gif" />
+
+- Drag and drop the MicroPython ["Firmware.uf2"]() file downloaded previously for pico from this github onto the RPI-RP2 or RP2350 volume. Reference image shown below how to transfer any UF2 file or you can copy paste as well. Device will reboot and you are now running MicroPython.
+
+  <img src= "https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/images/pico2_firmware_upload.png" width="859" height="501"/>
+  <img src= "https://github.com/sbcshop/Raspberry-Pi-Pico-Breadboard-Kit/blob/main/images/pico_firmware_upload.png" width="859" height="501"/>
+  
 - Once Boot Firmware loaded now we can proceed to test sample example scripts on breadboard kit with Pico, please below steps for these.
   
 ### Steps 2 : Run Examples
@@ -68,15 +73,19 @@ Note: External components can be connected with Pico Breadboard kit via 400 poin
 
 
 ## Related Products
- ![3vPicoRelayBoard](https://cdn.shopify.com/s/files/1/1217/2104/products/3vPicoRelayBoard.png?v=1617884866&width=200)
+ ![pico-2-channel-expander](https://shop.sb-components.co.uk/cdn/shop/products/PicoDuoExpander.png?v=1617192684&width=200)
  
- * [2 Channel Relay Board](https://shop.sb-components.co.uk/products/pico-3v-relay-hat?_pos=1&_sid=82fa60545&_ss=r) - Compatible Relay Hat for PiCoder 
+ * [Pico-2-channel-expander](https://shop.sb-components.co.uk/products/pico-2-channel-expander?_pos=3&_sid=5c4a24500&_ss=r) - Enable to interface multiple Pico HATs
  
- ![1.14” LCD HAT](https://cdn.shopify.com/s/files/1/1217/2104/products/6_c64376c7-a257-43a3-bb5f-0a9471741a7d.png?v=1624017126&width=200)
+ ![Raspberry Pi Pico GPIO Expansion Board](https://shop.sb-components.co.uk/cdn/shop/products/3_26338953-6ff4-4da6-9dfe-8e57629a38cf.png?v=1614941627&width=200)
 
- * [2 Channel Relay Board](https://shop.sb-components.co.uk/products/pico-3v-relay-hat?_pos=1&_sid=82fa60545&_ss=r) - Compatible Relay Hat for PiCoder 
+ * [Raspberry Pi Pico GPIO Expansion Board](https://shop.sb-components.co.uk/products/raspberry-pi-pico-board-gpio-expansion?_pos=18&_sid=5c4a24500&_ss=r) - Breakouts GPIO pins for easy access
 
- 
+ ![Raspberry Pi HAT Expansion Based on Pico](https://shop.sb-components.co.uk/cdn/shop/products/4_53b6ae9b-5cb1-49af-943e-1bfe132abcc1.png?v=1614318318&width=200)
+
+ * [Raspberry Pi HAT Expansion Based on Pico](https://shop.sb-components.co.uk/products/raspberry-pi-pico-hat-expansion?_pos=19&_sid=5c4a24500&_ss=r) - Allows to use Raspberry Pi HAT with Pico
+
+
 ## Product License
 
 This is ***open source*** product. Kindly check LICENSE.md file for more information.
